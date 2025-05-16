@@ -15,7 +15,7 @@
     Shanghai AI Laboratory&emsp; 
     Tsinghua University&emsp; <br>
     Zhejiang University&emsp;
-    The Chinese University of Hong Kong&emsp;
+    The University of Hong Kong&emsp;
     <br>
   </p>
 </p>
