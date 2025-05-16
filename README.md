@@ -11,9 +11,9 @@
     <a href='https://yilunchen.com/about/' target='_blank'>Yilun Chen</a>&emsp;
     <a href='https://tai-wang.github.io/' target='_blank'>Tai Wang</a>&emsp;
 	<a href='https://oceanpang.github.io/' target='_blank'>Jiangmiao Pang</a>&emsp;
-    <br>
+    <br><br>
     Shanghai AI Laboratory&emsp; 
-    Tsinghua University&emsp;
+    Tsinghua University&emsp; <br>
     Zhejiang University&emsp;
     The Chinese University of Hong Kong&emsp;
     <br>
