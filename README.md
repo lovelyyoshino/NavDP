@@ -47,10 +47,11 @@ Learning navigation in dynamic open-world environments is an important yet chall
 If you find our work helpful, please cite it:
 
 ```bibtex
-@inproceedings{cai2025navdp,
-  title={NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance},
-  author={Wenzhe Cai and Jiaqi Peng and Yuqiang Yang and Yujian Zhang and Meng Wei and Hanqing Wang and Yilun Chen and Tai Wang and Jiangmiao Pang},
-  year={2025}
+@article{cai2025navdp,
+  title = {NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance},
+  author = {Wenzhe Cai, Jiaqi Peng, Yuqiang Yang, Yujian Zhang, Meng Wei, Hanqing Wang, Yilun Chen, Tai Wang and Jiangmiao Pang},
+  booktitle = {Arxiv},
+  year = {2025},
 }
 ```
 
