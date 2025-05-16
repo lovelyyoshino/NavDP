@@ -24,8 +24,6 @@
 
 [![Project](https://img.shields.io/badge/Project-%239c403d?style=flat&logoColor=%23FA7F6F
 )](https://wzcai99.github.io/navigation-diffusion-policy.github.io/)
-[![Data](https://img.shields.io/badge/Data-%23779043?style=flat&logoColor=%23FA7F6F
-)](https://wzcai99.github.io/navigation-diffusion-policy.github.io/)
 [![arXiv](https://img.shields.io/badge/Arxiv-%233b6291?style=flat&logoColor=%23FA7F6F
 )](https://arxiv.org/abs/2505.08712)
 [![Video](https://img.shields.io/badge/Video-%23c97937?style=flat&logoColor=%23FA7F6F
