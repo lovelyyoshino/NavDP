@@ -37,9 +37,44 @@ Learning navigation in dynamic open-world environments is an important yet chall
     <img src="assets/navdp-teasor.jpg" alt="Dialogue_Teaser" width=100% >
 </div>
 
+## 🛠️ Installation
+Please follow the instructions to config the environment for NavDP.
+Step 0: Clone this repository
+```bash
+git clone https://github.com/wzcai99/NavDP.git
+cd NavDP/navdp_api/
+```
+
+Step 1: Create conda environment and install the dependency
+```bash
+conda create -n navdp python=3.10
+conda activate navdp
+pip install -r requirements.txt
+```
+
+Step 2: Install the diffusion policy
+```bash
+git clone https://github.com/real-stanford/diffusion_policy.git
+cd diffusion_policy
+pip install -e .
+```
+
+## 🤖 Run NavDP Model
+Please fill this [form](https://docs.google.com/forms/d/e/1FAIpQLSdl3RvajO5AohwWZL5C0yM-gkSqrNaLGp1OzN9oF24oNLfikw/viewform?usp=dialog) to access the link to download the NavDP model checkpoints. Then, run the following line to start navdp server:
+```bash
+python navdp_server.py --port ${YOUR_PORT} --checkpoint ${SAVE_PTH_PATH}
+```
+By querying with RGB-D observations, the navdp server will return the prediction trajectories as well as the critic values. We provide 3 examlpes of RGB-D observation clips, you can download via the following link: 
+[example-A-RGB](https://drive.google.com/file/d/1-sJ3N__mDb4qUkOv_zmpuRKSBMAbLhb5/view?usp=drive_link), [example-A-Depth](https://drive.google.com/file/d/1jVbDONzP5_M56QmaLW4HCqTCXGFMDQbO/view?usp=drive_link), [example-B-RGB](https://drive.google.com/file/d/1qwY-G3qS7A9hUh3pr_W6A5aEUpywPTSf/view?usp=drive_link), [example-B-Depth](https://drive.google.com/file/d/1oE4QCdl7hvBMs-5079ErdILskmTOAE1M/view?usp=drive_link), [example-C-RGB](https://drive.google.com/file/d/1O-O2HzRFOnsPP1W1xxNTOB1Ih92BvxCF/view?usp=drive_link), [example-C-Depth](https://drive.google.com/file/d/1DkoZrd73WIZdJRe37SiQAZ8EL2V83y3Z/view?usp=drive_link).
+
+And we provide an example code to run the inference results with visualization. 
+```bash
+python navdp_client.py --port ${YOUR_PORT}  -rgb_pkl ${SAVED_RGB_PKL} --depth_pkl ${SAVED_DEPTH_PKL} --output_path ${EXPECT_OUTPUT_PATH}
+```
+
 ## 📝 TODO List
 - \[x\] Release the arXiv paper in May, 2025.
-- \[ \] Release the scripts and checkpoint for deployment.
+- \[x\] Release the scripts and checkpoint for deployment.
 - \[ \] Release the large-scale navigation dataset.
 - \[ \] Release the evaluation benchmark.
 
