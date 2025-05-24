@@ -39,6 +39,7 @@ Learning navigation in dynamic open-world environments is an important yet chall
 
 ## 🛠️ Installation
 Please follow the instructions to config the environment for NavDP.
+
 Step 0: Clone this repository
 ```bash
 git clone https://github.com/wzcai99/NavDP.git
@@ -60,7 +61,7 @@ pip install -e .
 ```
 
 ## 🤖 Run NavDP Model
-Please fill this [form](https://docs.google.com/forms/d/e/1FAIpQLSdl3RvajO5AohwWZL5C0yM-gkSqrNaLGp1OzN9oF24oNLfikw/viewform?usp=dialog) to access the link to download the NavDP model checkpoints. Then, run the following line to start navdp server:
+Please fill this [form](https://docs.google.com/forms/d/e/1FAIpQLSdl3RvajO5AohwWZL5C0yM-gkSqrNaLGp1OzN9oF24oNLfikw/viewform?usp=dialog) to access the link to download the NavDP model checkpoint. Then, run the following line to start navdp server:
 ```bash
 python navdp_server.py --port ${YOUR_PORT} --checkpoint ${SAVE_PTH_PATH}
 ```
