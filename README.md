@@ -79,6 +79,9 @@ python navdp_client.py --port ${YOUR_PORT}  -rgb_pkl ${SAVED_RGB_PKL} --depth_pk
 - \[ \] Release the large-scale navigation dataset.
 - \[ \] Release the evaluation benchmark.
 
+## ✉️ Contact
+For any questions, please feel free to email wz_cai@seu.edu.cn. We will respond to it as soon as possible.
+
 ## 🔗 Citation
 If you find our work helpful, please cite it:
 
@@ -90,7 +93,6 @@ If you find our work helpful, please cite it:
   year = {2025},
 }
 ```
-
 ## 📄 License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 <br />
