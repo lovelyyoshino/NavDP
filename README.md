@@ -65,8 +65,8 @@ Please fill this [form](https://docs.google.com/forms/d/e/1FAIpQLSdl3RvajO5AohwW
 ```bash
 python navdp_server.py --port ${YOUR_PORT} --checkpoint ${SAVE_PTH_PATH}
 ```
-By querying with RGB-D observations, the navdp server will return the prediction trajectories as well as the critic values. We provide 3 examlpes of RGB-D observation clips, you can download via the following link: 
-[example-A-RGB](https://drive.google.com/file/d/1-sJ3N__mDb4qUkOv_zmpuRKSBMAbLhb5/view?usp=drive_link), [example-A-Depth](https://drive.google.com/file/d/1jVbDONzP5_M56QmaLW4HCqTCXGFMDQbO/view?usp=drive_link), [example-B-RGB](https://drive.google.com/file/d/1qwY-G3qS7A9hUh3pr_W6A5aEUpywPTSf/view?usp=drive_link), [example-B-Depth](https://drive.google.com/file/d/1oE4QCdl7hvBMs-5079ErdILskmTOAE1M/view?usp=drive_link), [example-C-RGB](https://drive.google.com/file/d/1O-O2HzRFOnsPP1W1xxNTOB1Ih92BvxCF/view?usp=drive_link), [example-C-Depth](https://drive.google.com/file/d/1DkoZrd73WIZdJRe37SiQAZ8EL2V83y3Z/view?usp=drive_link).
+By querying with RGB-D observations, the navdp server will return the prediction trajectories as well as the critic values. We provide 2 examlpes of RGB-D observation clips, you can download via the following link: 
+[example-A-RGB](https://drive.google.com/file/d/1-sJ3N__mDb4qUkOv_zmpuRKSBMAbLhb5/view?usp=drive_link), [example-A-Depth](https://drive.google.com/file/d/1jVbDONzP5_M56QmaLW4HCqTCXGFMDQbO/view?usp=drive_link), [example-B-RGB](https://drive.google.com/file/d/1qwY-G3qS7A9hUh3pr_W6A5aEUpywPTSf/view?usp=drive_link), [example-B-Depth](https://drive.google.com/file/d/1oE4QCdl7hvBMs-5079ErdILskmTOAE1M/view?usp=drive_link).
 
 And we provide an example code to run the inference results with visualization. 
 ```bash
