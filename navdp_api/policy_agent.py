@@ -119,7 +119,6 @@ class NavDP_Agent:
         all_trajectory, all_values, good_trajectory, bad_trajectory = self.navi_former.predict_pointgoal_action(input_goals,input_image,input_depth)
         
         if all_values.max() < self.stop_threshold:
-            print(good_trajectory.shape)
             good_trajectory[:,:,:,0:2] = good_trajectory[:,:,:,0:2] * 0.0
         
         trajectory_mask = self.project_trajectory(images,all_trajectory,all_values) 
@@ -147,7 +146,6 @@ class NavDP_Agent:
         all_trajectory, all_values, good_trajectory, bad_trajectory = self.navi_former.predict_nogoal_action(input_image,input_depth)
         
         if all_values.max() < self.stop_threshold:
-            print(good_trajectory.shape)
             good_trajectory[:,:,:,0:2] = good_trajectory[:,:,:,0:2] * 0.0
         
         trajectory_mask = self.project_trajectory(images,all_trajectory,all_values) 
