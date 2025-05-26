@@ -53,13 +53,6 @@ conda activate navdp
 pip install -r requirements.txt
 ```
 
-Step 2: Install the diffusion policy
-```bash
-git clone https://github.com/real-stanford/diffusion_policy.git
-cd diffusion_policy
-pip install -e .
-```
-
 ## 🤖 Run NavDP Model
 Please fill this [form](https://docs.google.com/forms/d/e/1FAIpQLSdl3RvajO5AohwWZL5C0yM-gkSqrNaLGp1OzN9oF24oNLfikw/viewform?usp=dialog) to access the link to download the NavDP model checkpoint. Then, run the following line to start navdp server:
 ```bash
