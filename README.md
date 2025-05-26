@@ -62,6 +62,7 @@ By querying with RGB-D observations, the navdp server will return the prediction
 [example-A-RGB](https://drive.google.com/file/d/1-sJ3N__mDb4qUkOv_zmpuRKSBMAbLhb5/view?usp=drive_link), [example-A-Depth](https://drive.google.com/file/d/1jVbDONzP5_M56QmaLW4HCqTCXGFMDQbO/view?usp=drive_link), [example-B-RGB](https://drive.google.com/file/d/1qwY-G3qS7A9hUh3pr_W6A5aEUpywPTSf/view?usp=drive_link), [example-B-Depth](https://drive.google.com/file/d/1oE4QCdl7hvBMs-5079ErdILskmTOAE1M/view?usp=drive_link).
 
 And we provide an example code to run the inference results with visualization. 
+You can choose to run no-goal policy or point-goal policy for your own purpose with calling different api functions. 
 ```bash
 python navdp_client.py --port ${YOUR_PORT}  -rgb_pkl ${SAVED_RGB_PKL} --depth_pkl ${SAVED_DEPTH_PKL} --output_path ${EXPECT_OUTPUT_PATH}
 ```
