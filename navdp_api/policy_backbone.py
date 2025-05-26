@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from diffusion_policy.model.diffusion.conv1d_components import Conv1dBlock
 from depth_anything.depth_anything_v2.dpt import DepthAnythingV2
 
 class PositionalEncoding(nn.Module):
