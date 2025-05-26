@@ -12,4 +12,4 @@ opencv_python==4.9.0.80
 Pillow==11.2.1
 Requests==2.32.3
 torchvision==0.17.2
-
+imageio[ffmpeg]==2.31.1
