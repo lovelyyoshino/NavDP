@@ -82,6 +82,13 @@ python navdp_client.py --port ${YOUR_PORT}  -rgb_pkl ${SAVED_RGB_PKL} --depth_pk
 ## ✉️ Contact
 For any questions, please feel free to email wz_cai@seu.edu.cn. We will respond to it as soon as possible.
 
+## 🎉 Acknowledgments
+This repository is built upon the support and contributions of the following open-source projects.  
+* [depth_anything](https://github.com/DepthAnything/Depth-Anything-V2): The foundation representation for RGB image observations.
+* [diffusion_policy](https://github.com/real-stanford/diffusion_policy): The implementation of the diffusion-based robot policy.
+* [IsaacLab](https://github.com/isaac-sim/IsaacLab): Efficient simulation platform for building the navigation benchmark in our work.
+
+
 ## 🔗 Citation
 If you find our work helpful, please cite it:
 
