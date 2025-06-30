@@ -1,0 +1,4 @@
+{
+    "port": 7780,
+    "checkpoint": "models/navdp-weights.ckpt"
+}

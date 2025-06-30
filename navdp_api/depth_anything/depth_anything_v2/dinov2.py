@@ -302,6 +302,7 @@ class DinoVisionTransformer(nn.Module):
         return_class_token: bool = False,
         norm=True
     ) -> Tuple[Union[torch.Tensor, Tuple[torch.Tensor]]]:
+        # 作用是获取中间层特征
         if self.chunked_blocks:
             outputs = self._get_intermediate_layers_chunked(x, n)
         else:
@@ -315,7 +316,7 @@ class DinoVisionTransformer(nn.Module):
             outputs = [
                 out.reshape(B, w // self.patch_size, h // self.patch_size, -1).permute(0, 3, 1, 2).contiguous()
                 for out in outputs
-            ]
+            ]# [batch, channel, height, width]
         if return_class_token:
             return tuple(zip(outputs, class_tokens))
         return tuple(outputs)
